@@ -7,13 +7,6 @@ from openai import OpenAI
 # 1. Configuration
 # ----------------------------
 
-# Load keys
-# with open("openai.txt", "r") as f:
-#     OPENAI_API_KEY = f.read().strip()
-
-# WEATHER_API_KEY = "aa4f8ce605d4aae238fd7c9cd8025ed6"
-# GMAPS_API_KEY = "AIzaSyANAzQPNhqiksExsM4RYxT4Zvr7Ld24_uw"
-
 import streamlit as st
 import os
 
@@ -116,3 +109,4 @@ if st.button("Generate Itinerary"):
 
     st.subheader("📅 Your Trip Itinerary")
     st.write(itinerary)
+
